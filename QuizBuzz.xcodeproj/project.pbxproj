@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2685CB8E178A799500DCA433 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2685CB8C178A799400DCA433 /* test.jpg */; };
+		2685CB8F178A799500DCA433 /* test@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2685CB8D178A799500DCA433 /* test@2x.jpg */; };
+		2685CB91178A7E9A00DCA433 /* test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2685CB90178A7E9A00DCA433 /* test2.jpg */; };
+		2685CB93178A825000DCA433 /* test2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2685CB92178A825000DCA433 /* test2@2x.jpg */; };
 		26E731CF17892D0600685954 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E731CE17892D0600685954 /* UIKit.framework */; };
 		26E731D117892D0600685954 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E731D017892D0600685954 /* Foundation.framework */; };
 		26E731D317892D0600685954 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E731D217892D0600685954 /* CoreGraphics.framework */; };
@@ -23,6 +27,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2685CB8C178A799400DCA433 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		2685CB8D178A799500DCA433 /* test@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "test@2x.jpg"; sourceTree = "<group>"; };
+		2685CB90178A7E9A00DCA433 /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test2.jpg; sourceTree = "<group>"; };
+		2685CB92178A825000DCA433 /* test2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "test2@2x.jpg"; sourceTree = "<group>"; };
 		26E731CB17892D0600685954 /* QuizBuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizBuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E731CE17892D0600685954 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		26E731D017892D0600685954 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,6 +96,10 @@
 		26E731D417892D0600685954 /* QuizBuzz */ = {
 			isa = PBXGroup;
 			children = (
+				2685CB92178A825000DCA433 /* test2@2x.jpg */,
+				2685CB90178A7E9A00DCA433 /* test2.jpg */,
+				2685CB8C178A799400DCA433 /* test.jpg */,
+				2685CB8D178A799500DCA433 /* test@2x.jpg */,
 				26E731DD17892D0600685954 /* QuizBuzzAppDelegate.h */,
 				26E731DE17892D0600685954 /* QuizBuzzAppDelegate.m */,
 				26E731E617892D0600685954 /* QuizBuzzViewController.h */,
@@ -173,6 +185,10 @@
 				26E731E517892D0600685954 /* Default-568h@2x.png in Resources */,
 				26E731EB17892D0600685954 /* QuizBuzzViewController.xib in Resources */,
 				26E731F517893A2700685954 /* Questions.xib in Resources */,
+				2685CB8E178A799500DCA433 /* test.jpg in Resources */,
+				2685CB8F178A799500DCA433 /* test@2x.jpg in Resources */,
+				2685CB91178A7E9A00DCA433 /* test2.jpg in Resources */,
+				2685CB93178A825000DCA433 /* test2@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +327,7 @@
 				26E731F017892D0600685954 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

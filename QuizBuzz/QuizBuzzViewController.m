@@ -20,7 +20,9 @@
                                   initWithNibName:@"Questions"
                                   bundle:nil];
     
+    MenuToQuestions.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"test.jpg"]];
     [self.view addSubview:MenuToQuestions.view];
+    
 }
 
 -(IBAction)HowToPlay:(id)sender{
@@ -30,7 +32,7 @@
     Credits.hidden = YES;
     Label.hidden = NO;
     
-    Label.text = [NSString stringWithFormat:@"Select your category, and answer the question right! If you get an answer wrong, you will lose a life. You have 3 lives."];
+    Label.text = [NSString stringWithFormat:@"Select your category, and answer the question right! If you get an answer wrong, you will lose a life. Since you are not a cat, you only have 3 lives."];
 }
 
 -(IBAction)Credits:(id)sender{
@@ -55,6 +57,8 @@
 {
     Label.hidden = YES;
     Back.hidden = YES;
+    
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"test2.jpg"]];
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
